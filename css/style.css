@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --black-main: #212121;
   --second-black: #000000;
   --main-blue: #2196f3;
@@ -10,27 +10,27 @@
   --second-border-grey: #eeeeee;
   --icon-footer-grey: rgba(255, 255, 255, 0.1);
   --icon-grey: #afb1b8;
-}
+} */
 
-*,
+/* *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--main-black);
-}
+} */
 
-.container {
+/* .container {
   box-sizing: border-box;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
 .section {
   padding: 94px 0;
