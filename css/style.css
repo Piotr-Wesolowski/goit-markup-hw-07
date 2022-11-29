@@ -32,12 +32,12 @@
   padding: 0 15px;
 } */
 
-.section {
+/* .section {
   padding: 94px 0;
   display: flex;
   width: 100%;
   align-items: center;
-}
+} */
 
 .section-portfolio-1 {
   padding-top: 100px;
@@ -54,14 +54,14 @@
   align-items: center;
 }
 
-.header-border {
+.header__border {
   border-bottom: 1px solid var(--border-grey);
   height: 80px;
   display: flex;
   align-items: center;
 }
 
-.header-position {
+.header__content {
   display: flex;
 }
 
@@ -957,7 +957,7 @@
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-main);
+  color: @main--black;
 }
 
 .form-style {
@@ -1081,7 +1081,7 @@
   left: 55px;
   width: 16px;
   height: 15px;
-  border: 1px solid var(--black-main);
+  border: 1px solid @main--black;
   border-radius: 2px;
   display: flex;
   justify-content: center;
