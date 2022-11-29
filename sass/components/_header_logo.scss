@@ -11,12 +11,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &--web {
+    &__web {
         letter-spacing: 0.003em;
     color: var(--main-blue);
     }
 
-    &--studio {
+    &__studio {
         letter-spacing: 0.03em;
     color: var(--second-black);
     }
