@@ -1,0 +1,48 @@
+.second-list {
+    line-height: 0.875;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .mail-top {
+    fill: var(--main-silver);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-silver);
+  }
+  
+  .mail-top:hover,
+  .mail-top:focus {
+    fill: var(--main-blue);
+    color: var(--main-blue);
+  }
+  
+  .phone-top {
+    fill: var(--main-silver);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-silver);
+    --color3: currentColor;
+  }
+  
+  .phone-top:hover,
+  .phone-top:focus {
+    color: var(--main-blue);
+    fill: var(--main-blue);
+  }
+  
+  .mail-phone-transformation {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  

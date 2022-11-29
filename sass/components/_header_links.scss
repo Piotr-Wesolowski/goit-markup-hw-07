@@ -1,0 +1,101 @@
+.header__links {
+    display: flex;
+    gap: 46px;
+    list-style-type: none;
+    line-height: 0.875;
+    align-items: center;
+  }
+  
+  .agency {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--black-main);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .agency-active {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-blue);
+  }
+  
+  .agency:hover,
+  .agency:focus {
+    color: var(--main-blue);
+  }
+  
+  .agency-active::after {
+    content: "";
+    height: 4px;
+    display: block;
+    width: 100%;
+    background-color: var(--main-blue);
+    border-radius: 2px;
+    position: relative;
+    top: 31px;
+  }
+  
+  .portfolio {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--black-main);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .portfolio-active {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-blue);
+  }
+  
+  .portfolio-active::after {
+    content: "";
+    height: 4px;
+    display: block;
+    width: 100%;
+    background-color: var(--main-blue);
+    border-radius: 2px;
+    position: relative;
+    top: 31px;
+  }
+  
+  .portfolio:hover,
+  .portfolio:focus {
+    color: var(--main-blue);
+  }
+  
+  .contact {
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--black-main);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contact:hover,
+  .contact:focus {
+    color: var(--main-blue);
+  }
