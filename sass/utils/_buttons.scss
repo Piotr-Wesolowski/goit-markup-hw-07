@@ -1,0 +1,14 @@
+.purchase__modal__button--close {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    left: calc(528px - 8px - 30px);
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-white);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }

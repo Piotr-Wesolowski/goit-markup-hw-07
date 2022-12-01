@@ -1,0 +1,11 @@
+.purchase__modal__form {
+    margin-bottom: 28px;
+    position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:has(input:focus) svg {
+        fill: var(--main-blue);
+      }
+  }

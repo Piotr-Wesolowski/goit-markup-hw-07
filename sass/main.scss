@@ -2,8 +2,14 @@
 @import "../sass/utils/section";
 @import "../sass/utils/vars";
 @import "../sass/utils/container";
+@import "../sass/utils/is-hidden";
+@import "../sass/utils/purchase__backdrop";
+@import "../sass/utils/modal";
+@import "../sass/utils/buttons";
 
 @import "../sass/components/header";
 @import "../sass/components/header_logo";
 @import "../sass/components/header_links";
 @import "../sass/components/header_contact";
+@import "../sass/components/purchase";
+@import "../sass/components/purchase__modal__form";
