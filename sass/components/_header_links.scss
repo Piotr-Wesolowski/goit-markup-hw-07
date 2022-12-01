@@ -4,8 +4,6 @@
   list-style-type: none;
   line-height: 0.875;
   align-items: center;
-
-  
 }
 
 .header__links__agency {
@@ -19,10 +17,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-//   <<==== COŚ NIE TAK Z TYM ZAGNIEŻDŻENIEM &--active MYŚLAŁEM ŻEBY PODCIĄGNĄĆ WYŻEJ POD HEADER LINKS ALE NIE IDZIE A W TYM MIEJSCU MUSZĘ
-// PONAWIAĆ INFO O FONTACH BO INACZEJ ICH NIE ZBIERA=====>
-
-  &--active {
+&--active {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -44,41 +39,13 @@
        
   }
 
-//   <<==== COŚ NIE TAK Z TYM ZAGNIEŻDŻENIEM &--active MYŚLAŁEM ŻEBY PODCIĄGNĄĆ WYŻEJ POD HEADER LINKS ALE NIE IDZIE A W TYM MIEJSCU MUSZĘ
-// PONAWIAĆ INFO O FONTACH BO INACZEJ ICH NIE ZBIERA=====>
-
 &:hover,
 &:focus {
     color: var(--main-blue);
 }
-
 }
 
-//   .header__links__agency--active {
-//     text-decoration: none;
-//     font-style: normal;
-//     font-weight: 500;
-//     font-size: 14px;
-//     line-height: 16px;
-//     letter-spacing: 0.02em;
-//     color: var(--main-blue);
-//   }
 
-// .header__links__agency:hover,
-// .header__links__agency:focus {
-//   color: var(--main-blue);
-// }
-
-// .header__links__agency--active::after {
-//   content: "";
-//   height: 4px;
-//   display: block;
-//   width: 100%;
-//   background-color: var(--main-blue);
-//   border-radius: 2px;
-//   position: relative;
-//   top: 31px;
-// }
 
 .header__links__portfolio {
   text-decoration: none;
@@ -110,15 +77,64 @@
   position: relative;
   top: 31px;
 }
-
 }
 
 &:hover,
 &:focus {
     color: var(--main-blue);
 }
-
 }
+
+
+.header__links_contact {
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black-main);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+      color: var(--main-blue);
+  }
+}
+
+// .header__links_contact:hover,
+// .header__links_contact:focus {
+//   color: var(--main-blue);
+// }
+
+
+//   .header__links__agency--active {
+//     text-decoration: none;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.02em;
+//     color: var(--main-blue);
+//   }
+
+// .header__links__agency:hover,
+// .header__links__agency:focus {
+//   color: var(--main-blue);
+// }
+
+// .header__links__agency--active::after {
+//   content: "";
+//   height: 4px;
+//   display: block;
+//   width: 100%;
+//   background-color: var(--main-blue);
+//   border-radius: 2px;
+//   position: relative;
+//   top: 31px;
+// }
 
 // .header__links__portfolio--active {
 //   text-decoration: none;
@@ -143,29 +159,5 @@
 
 // .header__links__portfolio:hover,
 // .header__links__portfolio:focus {
-//   color: var(--main-blue);
-// }
-
-.header__links_contact {
-  display: flex;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: var(--black-main);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-      color: var(--main-blue);
-  }
-
-}
-
-// .header__links_contact:hover,
-// .header__links_contact:focus {
 //   color: var(--main-blue);
 // }
