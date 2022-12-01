@@ -563,7 +563,17 @@
   fill: var(--main-blue);
 } */
 
-.web-studio-logo-studio-bottom {
+/* .footer__logo__web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.003em;
+  color: var(--main-blue);
+}
+
+.footer__logo__studio {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -573,7 +583,7 @@
   color: var(--main-white);
 }
 
-.web-studio-logo-footer {
+.footer__contact__logo {
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -583,47 +593,47 @@
   letter-spacing: 0.03em;
 }
 
-.web-studio-logo-footer:hover,
-.webs-tudio-logo-footer:focus {
+.footer__contact__logo:hover,
+.footer__contact__logo:focus {
   text-decoration: underline;
   color: var(--main-blue);
-}
+} */
 
-.footer-background {
+/* .footer {
   background: var(--background-grey);
   display: flex;
   height: 252px;
   width: 100%;
   padding-top: 60px;
-}
+} */
 
-.footer-background-portfolio {
+/* .footer-background-portfolio {
   background: var(--background-grey);
   display: flex;
   height: 252px;
   width: 100%;
   padding-top: 60px;
-}
+} */
 
-.sixth-list {
+/* .footer__contact__list {
   list-style-type: none;
   padding-top: 20px;
 }
 
-.street {
+.footer__contact__street {
   font-style: normal;
   display: flex;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-white);
-  /* padding-bottom: 9px; */
+ 
 }
 
-.mail-bottom {
+.footer__contact__mail {
   text-decoration: none;
   font-style: normal;
-  /* display: flex; */
+  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -633,15 +643,15 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-bottom:hover,
-.mail-bottom:focus {
+.footer__contact__mail:hover,
+.footer__contact__mail:focus {
   color: var(--main-blue);
 }
 
-.phone-bottom {
+.footer__contact__phone {
   text-decoration: none;
   font-style: normal;
-  /* display: flex; */
+  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -650,10 +660,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.phone-bottom:hover,
-.phone-bottom:focus {
+.footer__contact__phone:hover,
+.footer__contact__phone:focus {
   color: var(--main-blue);
-}
+} */
 
 .join-us {
   font-family: "Roboto";
@@ -678,10 +688,10 @@
   /* justify-content: space-between; */
 }
 
-.wrapper {
+/* .footer__wrapper {
   display: flex;
   width: 100%;
-}
+} */
 
 .section-right {
   padding-left: 32px;
