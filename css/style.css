@@ -914,12 +914,12 @@
   padding-right: 45px;
 }
 
-.is-hidden {
+/* .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   transform: scale(0);
-}
+} */
 
 /* .purchase__backdrop {
   position: fixed;
@@ -981,7 +981,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.purchase__modal__input {
+/* .purchase__modal__input {
   margin-left: 40px;
   box-sizing: border-box;
   padding-left: 42px;
@@ -1061,12 +1061,12 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-comment:focus-within {
+.purchase__modal__comment__input:focus-within {
   border-color: var(--main-blue);
   border: 1px solid var(--main-blue);
 }
 
-.statement {
+.purchase__modal__statement {
   position: relative;
   width: 528px;
   height: 74px;
@@ -1079,7 +1079,7 @@
   color: var(--main-silver);
 }
 
-.statement-checkbox-original {
+.purchase__modal__checkbox {
   opacity: 0;
   width: 16px;
   height: 15px;
@@ -1088,7 +1088,7 @@
   left: 55px;
 }
 
-.checkbox-border {
+.purchase__modal__checkbox--border {
   box-sizing: border-box;
   position: absolute;
   top: 25px;
@@ -1106,7 +1106,7 @@
   fill: var(--main-white);
 }
 
-.statement-checkbox-original:checked + span {
+.purchase__modal__checkbox:checked + span {
   fill: var(--main-white);
   background-color: var(--main-blue);
   border: 1px solid var(--main-blue);
@@ -1114,27 +1114,27 @@
   outline: var(--main-blue);
 }
 
-.statement-text {
+.purchase__modal__statement--text {
   position: absolute;
   top: 20px;
   left: 79px;
 }
 
-.statement-text-silver {
+.purchase__modal__statement--text--silver {
   color: var(--main-silver);
 }
 
-.statement-text-blue-underline {
+.purchase__modal__statement--text--underline {
   text-decoration: underline;
   color: var(--main-blue);
-}
+} */
 
-.send-button-div {
+/* .purchase__modal__button {
   display: flex;
   justify-content: center;
 }
 
-.send-button {
+.purchase__modal__button--send {
   width: 200px;
   height: 50px;
   left: 700px;
@@ -1154,10 +1154,10 @@
   color: var(--main-white);
 }
 
-.send-button:hover,
-.send-button:focus {
+.purchase__modal__button--send:hover,
+.purchase__modal__button--send:focus {
   cursor: pointer;
-}
+} */
 
 .section-sign-in {
   padding-left: 78px;
