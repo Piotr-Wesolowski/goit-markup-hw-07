@@ -3,12 +3,6 @@
 @import "../sass/utils/vars";
 @import "../sass/utils/container";
 @import "../sass/utils/is-hidden";
-@import "../sass/utils/purchase__backdrop";
-@import "../sass/utils/modal";
-@import "../sass/utils/buttons";
-@import "../sass/utils/social_icons";
-@import "../sass/utils/wrapper";
-@import "../sass/utils/overlay";
 
 @import "../sass/components/header";
 @import "../sass/components/purchase";
@@ -18,3 +12,9 @@
 @import "../sass/components/customers";
 @import "../sass/components/footer";
 @import "../sass/components/portfolio";
+@import "../sass/components/buttons";
+@import "../sass/components/modal";
+@import "../sass/components/overlay";
+@import "../sass/components/purchase__backdrop";
+@import "../sass/components/social_icons";
+@import "../sass/components/wrapper";
