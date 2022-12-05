@@ -31,7 +31,7 @@
     color: var(--main-white);
   }
 
-  .purchase__modal__form {
+  .purchase__modal-form {
     margin-bottom: 28px;
     position: relative;
     transition-duration: 250ms;
@@ -42,7 +42,7 @@
     }
   }
   
-  .purchase__modal__input {
+  .purchase__modal-input {
     margin-left: 40px;
     box-sizing: border-box;
     padding-left: 42px;
@@ -60,7 +60,7 @@
     }
   }
   
-  .purchase__modal__icon {
+  .purchase__modal-icon {
     z-index: 1;
     position: absolute;
     left: 55px;
@@ -69,7 +69,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .purchase__modal__label {
+  .purchase__modal-label {
     left: 40px;
     position: absolute;
     top: -20px;
@@ -81,7 +81,7 @@
     color: var(--main-silver);
   }
   
-  .modal-form-label-comment {
+  .purchase__modal-comment-label {
     position: absolute;
     top: -20px;
     font-family: "Roboto";
@@ -92,7 +92,7 @@
     color: var(--main-silver);
   }
   
-  .purchase__modal__comment {
+  .purchase__modal-comment {
     box-sizing: border-box;
     position: relative;
     margin-left: 40px;
@@ -100,7 +100,7 @@
     height: 120px;
   }
   
-  .purchase__modal__comment__input {
+  .purchase__modal-comment-input {
     box-sizing: border-box;
     resize: none;
     width: 448px;
@@ -123,7 +123,7 @@
     }
   }
   
-  .purchase__modal__statement {
+  .purchase__modal-statement {
     position: relative;
     width: 528px;
     height: 74px;
@@ -136,7 +136,7 @@
     color: var(--main-silver);
   }
   
-  .purchase__modal__checkbox {
+  .purchase__modal-checkbox {
     opacity: 0;
     width: 16px;
     height: 15px;
@@ -151,9 +151,11 @@
       border-radius: 2px;
       outline: var(--main-blue);
     }
+
+    
   }
   
-  .purchase__modal__checkbox--border {
+  .purchase__modal-checkbox-border {
     box-sizing: border-box;
     position: absolute;
     top: 25px;
@@ -171,7 +173,7 @@
     fill: var(--main-white);
   }
   
-  .purchase__modal__statement--text {
+  .purchase__modal-statement-text {
     position: absolute;
     top: 20px;
     left: 79px;
