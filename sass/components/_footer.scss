@@ -6,7 +6,7 @@
     padding-top: 60px;
   }
 
-  .footer__logo__web {
+  .footer__logo-web {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -16,7 +16,7 @@
     color: var(--main-blue);
   }
   
-  .footer__logo__studio {
+  .footer__logo-studio {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -26,7 +26,7 @@
     color: var(--main-white);
   }
   
-  .footer__contact__logo {
+  .footer__contact-logo {
     text-decoration: none;
     font-family: "Raleway";
     font-style: normal;
@@ -36,18 +36,18 @@
     letter-spacing: 0.03em;
   }
   
-  .footer__contact__logo:hover,
-  .footer__contact__logo:focus {
+  .footer__contact-logo:hover,
+  .footer__contact-logo:focus {
     text-decoration: underline;
     color: var(--main-blue);
   }
 
-  .footer__contact__list {
+  .footer__contact-list {
     list-style-type: none;
     padding-top: 20px;
   }
   
-  .footer__contact__street {
+  .footer__contact-street {
     font-style: normal;
     display: flex;
     font-size: 14px;
@@ -57,7 +57,7 @@
     
   }
   
-  .footer__contact__mail {
+  .footer__contact-mail {
     text-decoration: none;
     font-style: normal;
     
@@ -70,12 +70,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .footer__contact__mail:hover,
-  .footer__contact__mail:focus {
+  .footer__contact-mail:hover,
+  .footer__contact-mail:focus {
     color: var(--main-blue);
   }
   
-  .footer__contact__phone {
+  .footer__contact-phone {
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
@@ -86,12 +86,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .footer__contact__phone:hover,
-  .footer__contact__phone:focus {
+  .footer__contact-phone:hover,
+  .footer__contact-phone:focus {
     color: var(--main-blue);
   }
 
-  .footer__social__header {
+  .footer__social-header {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -106,7 +106,7 @@
     padding-bottom: 20px;
   }
   
-  .footer__social__icons {
+  .footer__social-icons {
       padding-left: 70px;
    
   }
@@ -115,7 +115,7 @@
     padding-left: 32px;
   }
   
-  .footer__social__list {
+  .footer__social-list {
     width: 206px;
     display: flex;
     list-style: none;
@@ -128,7 +128,7 @@
     padding-left: 78px;
   }
   
-  .footer__newsletter__header {
+  .footer__newsletter-header {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -142,7 +142,7 @@
     padding-bottom: 20px;
   }
   
-  .footer__newsletter__input {
+  .footer__newsletter-input {
     outline: 0;
     width: 358px;
     height: 50px;
@@ -163,6 +163,6 @@
     padding-left: 16px;
   }
   
-  .footer__newsletter__box {
+  .footer__newsletter-box {
     display: flex;
   }
